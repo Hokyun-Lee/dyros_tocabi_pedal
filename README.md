@@ -42,4 +42,17 @@ rosrun joy joy_node
 rostopic echo /joy
 ```
 
-<p align="center"><img src="https://user-images.githubusercontent.com/68094299/89494340-f02faa80-d7f0-11ea-8394-17d1a2aae051.png" height="300">
+<p align="center"><img src="https://user-images.githubusercontent.com/68094299/89494391-09385b80-d7f1-11ea-85a3-139cc3c5e128.png" height="300">
+<br></br>
+
+ ## How do I run dyros_tocabi_pedal ? ##
+* Launch DaegyuLim's Custom-Controller (https://github.com/DaegyuLim/Custom-Controller)
+* Enable mujoco
+* in tocabi_gui > COMMAND > Mode > Select "13.CustomController 4" > Click "SEND" <br>
+
+* roslaunch
+```ch
+roslaunch dyros_tocabi_pedal pedal.launch
+```
+  also, you can check topic with `rostopic list` and `rostopic echo /tocabi/...`
+  <br></br>
