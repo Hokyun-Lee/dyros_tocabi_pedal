@@ -42,5 +42,5 @@ rosrun joy joy_node
 ```sh
 rostopic echo /joy
 ```
-<p align="center"><img src="http://www.thrustmaster.com/sites/all/modules/imagemanager/files/TFRP/TFRP-Rudder_1.jpg">
+<p align="center"><img src="https://user-images.githubusercontent.com/68094299/89493148-6b439180-d7ee-11ea-8457-ba2b5c2ff1b0.png">
 <br></br>
