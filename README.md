@@ -8,3 +8,39 @@
 * using Joy(ROS driver for a generic Linux joystick).
 
 <p align="center">!<img src="https://user-images.githubusercontent.com/68094299/89492962-db9de300-d7ed-11ea-8901-9ee6053f3ca9.png">
+
+## Configuring Joy ##
+1. Joy 패키지 설치
+```sh
+sudo apt-get install ros-kinetic-joy
+```
+
+2. Rudder Pedal 인식 확인
+* Connect your Rudder Pedal to your computer.
+```sh
+ls /dev/input/
+```
+
+* listing the permissions of the Pedal.(in my case, js0)
+```sh
+ls -1 /dev/input/jsX
+sudo chmod a+rw /dev/input/jsX
+```
+
+* test joystick
+```sh
+sudo jstest /dev/input/jsX
+```
+
+* Starting the joy Node
+```sh
+roscore
+rosparam set joy_node/dev "/dev/input/jsX"
+rosrun joy joy_node
+```
+* Check published topic
+```sh
+rostopic echo /joy
+```
+<p align="center"><img src="http://www.thrustmaster.com/sites/all/modules/imagemanager/files/TFRP/TFRP-Rudder_1.jpg">
+<br></br>
