@@ -1,4 +1,4 @@
-# DYROS TOCABI PEDAL~
+# DYROS TOCABI PEDAL
 
 * made by modifying [DYROS TOCABI JOYSTICK](https://github.com/Hokyun-Lee/dyros_tocabi_joystick)
 * This is a DYROS Tocabi Humanoid's PEDAL control interface Repository
