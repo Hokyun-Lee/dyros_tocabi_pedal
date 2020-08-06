@@ -42,4 +42,4 @@ rosrun joy joy_node
 rostopic echo /joy
 ```
 
-<p align="center"><img src="https://user-images.githubusercontent.com/68094299/89493835-f6715700-d7ef-11ea-8d79-757c2817fa8a.png" height="500">
+<p align="center"><img src="https://user-images.githubusercontent.com/68094299/89494340-f02faa80-d7f0-11ea-8394-17d1a2aae051.png" height="300">
